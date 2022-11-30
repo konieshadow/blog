@@ -1,7 +1,6 @@
 ---
 title: "Yapi"
 date: 2022-11-30T13:53:34+08:00
-draft: true
 ---
 
 [YApi](https://github.com/YMFE/yapi) 是百度去哪儿网开源的一个接口管理平台。
