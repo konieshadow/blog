@@ -1,4 +1,4 @@
-baseURL = 'http://comellia.com/'
+baseURL = 'https://comellia.com/'
 languageCode = 'zh-cn'
 title = 'Comellia'
 theme = "paper"
