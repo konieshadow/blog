@@ -1,0 +1,20 @@
+baseURL = 'http://comellia.com/'
+languageCode = 'zh-cn'
+title = 'Comellia'
+theme = "paper"
+
+disqusShortname = 'comellia'   # add disqus comments
+
+[params]
+  # color style
+  color = 'linen'                 # linen, wheat, gray, light
+
+  # header social icons
+  github = 'konieshadow'       # github.com/YOUR_GITHUB_ID
+  rss = true                      # show rss icon with link
+
+  # home page profile
+  name = 'Konie'
+
+  # misc
+  disableHLJS = false              # disable requesting highlight.js
