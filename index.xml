@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Comellia</title><link>https://comellia.com/</link><description>Recent content on Comellia</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 30 Nov 2022 10:41:42 +0800</lastBuildDate><atom:link href="https://comellia.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://comellia.com/posts/hugo/</link><pubDate>Wed, 30 Nov 2022 10:41:42 +0800</pubDate><guid>https://comellia.com/posts/hugo/</guid><description>最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Comellia</title><link>https://comellia.com/</link><description>Recent content on Comellia</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 30 Nov 2022 13:53:34 +0800</lastBuildDate><atom:link href="https://comellia.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Yapi</title><link>https://comellia.com/posts/yapi/</link><pubDate>Wed, 30 Nov 2022 13:53:34 +0800</pubDate><guid>https://comellia.com/posts/yapi/</guid><description>YApi 是百度去哪儿网开源的一个接口管理平台。
+官方介绍：
+YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台
+该项目几乎由 100% 的 JavaScript 编写完成（当然还有 CSS），后端使用 Koa 作为 web 框架和 Mongoose 作为数据持久层框架，所有动态数据都存储于 MongoDB 中。前端使用了 React 和 Antd，还有去哪儿网自研的基于 Webpack 的打包工具 ykit。Github 上的第一次提交是在 5 年前，截至目前共有 5802 次提交，有 80 位贡献者参与。覆盖的功能包括基于分组和项目的权限管理、可视化的接口设计、接口调试、接口 Mock、支持自定义脚本的高级 Mock、自动化接口测试、从 Postman、Swagger 等格式导入导出数据、开放API 等。在社区的支持下，有 SSO 登录、代码生成、Spring 项目自动生成接口文档等等插件。在失去主要维护一年多后，目前 Github 仓库有 25.4k 的 Star。
+所以，这不是一个简单的项目。
+接口管理对 Web 应用开发是非常常用的功能，我知道很早以前大家用 Word 写接口文档，后来用 Markdown、Swagger 等文本格式，之前也有几个开源的可视化接口管理系统，但大都没有很好的维护了。
+目前市面上的接口管理系统，大都包含了以下这些功能：
+可视化接口设计； 接口调试； Mock 调用； 自动化测试及压力测试。 目前商业化做得最好的，当然也是闭源的，有以下这些：
+Postman （国外的，貌似接口设计这块儿不是其主要功能） Apipost （国内的，SaaS 版免费，但企业内网部署收费） Apifox （国内的，同上） 我知道上面这些在商业上确实做得都不错，至少拿到了很可观的融资。功能体验上，也确实比 YApi 要好很多。我不得不服商业公司的持续开发能力。</description></item><item><title>Hugo</title><link>https://comellia.com/posts/hugo/</link><pubDate>Wed, 30 Nov 2022 10:41:42 +0800</pubDate><guid>https://comellia.com/posts/hugo/</guid><description>最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。
 那么，还是用博客记录下来吧。
 因为在学 Rust 语言，所以尝试了 Zola，一个用Rust编写的静态站点生成器。但过程不是很顺便，遇到的问题包括“主题少”、“文档不详细”、“中文支持有限”等，最后还是放弃了。
 后转到 Hugo 后，发现一切都顺滑了起来。在这个领域，Go 确实更胜一筹。
