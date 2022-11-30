@@ -1,0 +1,43 @@
+<!doctype html><html class="not-ready text-sm lg:text-base" style=--bg:#faf6f1 lang=zh-cn><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Hugo - Comellia</title><meta name=theme-color><meta name=description content="Hugo 最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。
+那么，还是用博客记录下来吧。
+因为在学 Rust 语言，所以尝试了 Zola，一个用Rust编写的静态站点生成器。但过程不是很顺便，遇到的问题包括“主题少”、“文档不详细”、“中文支持有限”等，最后还是放弃了。
+后转到 Hugo 后，发现一切都顺滑了起来。在这个领域，Go 确实更胜一筹。
+是因为 Go 更适合这样的场景吗？也许吧。
+我认为静态站点生成器是非常需要社区积极参与的一类项目，当然 Zola 也很活跃，但是其开发语言还是不如 Hexo 的 Node 和 Hugo 的 Go 更易上手。而静态站点生成器往往也不追求极致的性能。
+那么我自己在做的项目呢？它的后端原本是用 Node + Mongoose 实现的，改为 Rust 从效率上讲肯定不是很好的选择。如果这个项目需要吸引其他人参与，那 Rust 无疑也是一个不小的门槛。而对于Rust老手，这类项目也不是很有吸引力。
+编程语言之争是一个“经久不衰”的话题，程序员们津津乐道，就好像球迷在讨论球队一样。而编程语言之外，操作系统、开发框架甚至代码编辑器，也是如此。
+我喜欢看到这样的争论，说明我们有的选择，创新在持续。
+编程语言就像程序员手里的剑。希望你的剑能带你闯过难关，避过凶险，带你回家。"><meta name=author content><link rel="preload stylesheet" as=style href=https://comellia.com/main.min.css><script defer src=https://comellia.com/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+<link rel=preload as=image href=https://comellia.com/theme.png><link rel=preload as=image href=https://comellia.com/github.svg><link rel=preload as=image href=https://comellia.com/rss.svg><link rel=icon href=https://comellia.com/favicon.ico><link rel=apple-touch-icon href=https://comellia.com/apple-touch-icon.png><meta name=generator content="Hugo 0.107.0"><meta property="og:title" content="Hugo"><meta property="og:description" content="Hugo 最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。
+那么，还是用博客记录下来吧。
+因为在学 Rust 语言，所以尝试了 Zola，一个用Rust编写的静态站点生成器。但过程不是很顺便，遇到的问题包括“主题少”、“文档不详细”、“中文支持有限”等，最后还是放弃了。
+后转到 Hugo 后，发现一切都顺滑了起来。在这个领域，Go 确实更胜一筹。
+是因为 Go 更适合这样的场景吗？也许吧。
+我认为静态站点生成器是非常需要社区积极参与的一类项目，当然 Zola 也很活跃，但是其开发语言还是不如 Hexo 的 Node 和 Hugo 的 Go 更易上手。而静态站点生成器往往也不追求极致的性能。
+那么我自己在做的项目呢？它的后端原本是用 Node + Mongoose 实现的，改为 Rust 从效率上讲肯定不是很好的选择。如果这个项目需要吸引其他人参与，那 Rust 无疑也是一个不小的门槛。而对于Rust老手，这类项目也不是很有吸引力。
+编程语言之争是一个“经久不衰”的话题，程序员们津津乐道，就好像球迷在讨论球队一样。而编程语言之外，操作系统、开发框架甚至代码编辑器，也是如此。
+我喜欢看到这样的争论，说明我们有的选择，创新在持续。
+编程语言就像程序员手里的剑。希望你的剑能带你闯过难关，避过凶险，带你回家。"><meta property="og:type" content="article"><meta property="og:url" content="https://comellia.com/posts/hugo/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-11-30T10:41:42+08:00"><meta property="article:modified_time" content="2022-11-30T10:41:42+08:00"><meta itemprop=name content="Hugo"><meta itemprop=description content="Hugo 最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。
+那么，还是用博客记录下来吧。
+因为在学 Rust 语言，所以尝试了 Zola，一个用Rust编写的静态站点生成器。但过程不是很顺便，遇到的问题包括“主题少”、“文档不详细”、“中文支持有限”等，最后还是放弃了。
+后转到 Hugo 后，发现一切都顺滑了起来。在这个领域，Go 确实更胜一筹。
+是因为 Go 更适合这样的场景吗？也许吧。
+我认为静态站点生成器是非常需要社区积极参与的一类项目，当然 Zola 也很活跃，但是其开发语言还是不如 Hexo 的 Node 和 Hugo 的 Go 更易上手。而静态站点生成器往往也不追求极致的性能。
+那么我自己在做的项目呢？它的后端原本是用 Node + Mongoose 实现的，改为 Rust 从效率上讲肯定不是很好的选择。如果这个项目需要吸引其他人参与，那 Rust 无疑也是一个不小的门槛。而对于Rust老手，这类项目也不是很有吸引力。
+编程语言之争是一个“经久不衰”的话题，程序员们津津乐道，就好像球迷在讨论球队一样。而编程语言之外，操作系统、开发框架甚至代码编辑器，也是如此。
+我喜欢看到这样的争论，说明我们有的选择，创新在持续。
+编程语言就像程序员手里的剑。希望你的剑能带你闯过难关，避过凶险，带你回家。"><meta itemprop=datePublished content="2022-11-30T10:41:42+08:00"><meta itemprop=dateModified content="2022-11-30T10:41:42+08:00"><meta itemprop=wordCount content="37"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="Hugo"><meta name=twitter:description content="Hugo 最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。
+那么，还是用博客记录下来吧。
+因为在学 Rust 语言，所以尝试了 Zola，一个用Rust编写的静态站点生成器。但过程不是很顺便，遇到的问题包括“主题少”、“文档不详细”、“中文支持有限”等，最后还是放弃了。
+后转到 Hugo 后，发现一切都顺滑了起来。在这个领域，Go 确实更胜一筹。
+是因为 Go 更适合这样的场景吗？也许吧。
+我认为静态站点生成器是非常需要社区积极参与的一类项目，当然 Zola 也很活跃，但是其开发语言还是不如 Hexo 的 Node 和 Hugo 的 Go 更易上手。而静态站点生成器往往也不追求极致的性能。
+那么我自己在做的项目呢？它的后端原本是用 Node + Mongoose 实现的，改为 Rust 从效率上讲肯定不是很好的选择。如果这个项目需要吸引其他人参与，那 Rust 无疑也是一个不小的门槛。而对于Rust老手，这类项目也不是很有吸引力。
+编程语言之争是一个“经久不衰”的话题，程序员们津津乐道，就好像球迷在讨论球队一样。而编程语言之外，操作系统、开发框架甚至代码编辑器，也是如此。
+我喜欢看到这样的争论，说明我们有的选择，创新在持续。
+编程语言就像程序员手里的剑。希望你的剑能带你闯过难关，避过凶险，带你回家。"></head><body class="text-black duration-200 ease-out dark:text-white"><header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center"><div class="relative z-50 mr-auto flex items-center"><a class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold" href=https://comellia.com/>Comellia</a>
+<a class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"></a></div><a class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"></a>
+<script>const htmlClass=document.documentElement.classList;setTimeout(()=>{htmlClass.remove("not-ready")},10);const btnMenu=document.querySelector(".btn-menu");btnMenu.addEventListener("click",()=>{htmlClass.toggle("open")});const metaTheme=document.querySelector('meta[name="theme-color"]'),lightBg=`"#faf6f1"`.replace(/"/g,""),setDark=e=>{metaTheme.setAttribute("content",e?"#000":lightBg),htmlClass[e?"add":"remove"]("dark"),localStorage.setItem("dark",e)},darkScheme=window.matchMedia("(prefers-color-scheme: dark)");if(htmlClass.contains("dark"))setDark(!0);else{const e=localStorage.getItem("dark");setDark(e?e==="true":darkScheme.matches)}darkScheme.addEventListener("change",e=>{setDark(e.matches)});const btnDark=document.querySelector(".btn-dark");btnDark.addEventListener("click",()=>{setDark(localStorage.getItem("dark")!=="true")})</script><div class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"><nav class="mt-12 flex justify-center space-x-10 dark:invert lg:mt-0 lg:ml-12 lg:items-center lg:space-x-6"><a class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6" style=--url:url(./github.svg) href=https://github.com/konieshadow target=_blank></a>
+<a class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6" style=--url:url(./rss.svg) href=https://comellia.com/index.xml target=_blank></a></nav></div></header><main class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"><article><header class=mb-20><h1 class="!my-0 pb-2.5">Hugo</h1><div class="text-sm opacity-60"><time>Nov 30, 2022</time></div></header><section><h2 id=hugo>Hugo</h2><p>最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。</p><p>那么，还是用博客记录下来吧。</p><p>因为在学 Rust 语言，所以尝试了 <a href=https://www.getzola.org/>Zola</a>，一个用Rust编写的静态站点生成器。但过程不是很顺便，遇到的问题包括“主题少”、“文档不详细”、“中文支持有限”等，最后还是放弃了。</p><p>后转到 <a href=https://gohugo.io/>Hugo</a> 后，发现一切都顺滑了起来。在这个领域，Go 确实更胜一筹。</p><p>是因为 Go 更适合这样的场景吗？也许吧。</p><p>我认为静态站点生成器是非常需要社区积极参与的一类项目，当然 Zola 也很活跃，但是其开发语言还是不如 Hexo 的 Node 和 Hugo 的 Go 更易上手。而静态站点生成器往往也不追求极致的性能。</p><p>那么我自己在做的项目呢？它的后端原本是用 Node + Mongoose 实现的，改为 Rust 从效率上讲肯定不是很好的选择。如果这个项目需要吸引其他人参与，那 Rust 无疑也是一个不小的门槛。而对于Rust老手，这类项目也不是很有吸引力。</p><p>编程语言之争是一个“经久不衰”的话题，程序员们津津乐道，就好像球迷在讨论球队一样。而编程语言之外，操作系统、开发框架甚至代码编辑器，也是如此。</p><p>我喜欢看到这样的争论，说明我们有的选择，创新在持续。</p><p>编程语言就像程序员手里的剑。希望你的剑能带你闯过难关，避过凶险，带你回家。</p><p><img src=/images/hugo-logo-wide.svg alt="Hugo Logo"></p></section><div id=disqus_thread></div><script>const disqusShortname="comellia",script=document.createElement("script");script.src="https://"+disqusShortname+".disqus.com/embed.js",script.setAttribute("data-timestamp",+new Date),document.head.appendChild(script)</script></article></main><footer class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"><div class=mr-auto>&copy; 2022
+<a class=link href=https://comellia.com/>Comellia</a></div><a class="link mx-6" href=https://gohugo.io/ rel=noopener target=_blank>Powered by Hugo️️</a>️
+<a class=link href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>▷ Paper 6</a></footer></body></html>

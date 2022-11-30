@@ -1,2 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Comellia</title><link>https://comellia.com/posts/</link><description>Recent content in Posts on Comellia</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 30 Nov 2022 10:41:42 +0800</lastBuildDate><atom:link href="https://comellia.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://comellia.com/posts/hello/</link><pubDate>Wed, 30 Nov 2022 10:41:42 +0800</pubDate><guid>https://comellia.com/posts/hello/</guid><description>Hello 最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。
-那么，还是用博客记录下来吧。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Comellia</title><link>https://comellia.com/posts/</link><description>Recent content in Posts on Comellia</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 30 Nov 2022 10:41:42 +0800</lastBuildDate><atom:link href="https://comellia.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://comellia.com/posts/hugo/</link><pubDate>Wed, 30 Nov 2022 10:41:42 +0800</pubDate><guid>https://comellia.com/posts/hugo/</guid><description>Hugo 最近有时间学习新东西，继续尝试做开源项目。开始之后，发现是一个漫长的道路。
+那么，还是用博客记录下来吧。
+因为在学 Rust 语言，所以尝试了 Zola，一个用Rust编写的静态站点生成器。但过程不是很顺便，遇到的问题包括“主题少”、“文档不详细”、“中文支持有限”等，最后还是放弃了。
+后转到 Hugo 后，发现一切都顺滑了起来。在这个领域，Go 确实更胜一筹。
+是因为 Go 更适合这样的场景吗？也许吧。
+我认为静态站点生成器是非常需要社区积极参与的一类项目，当然 Zola 也很活跃，但是其开发语言还是不如 Hexo 的 Node 和 Hugo 的 Go 更易上手。而静态站点生成器往往也不追求极致的性能。
+那么我自己在做的项目呢？它的后端原本是用 Node + Mongoose 实现的，改为 Rust 从效率上讲肯定不是很好的选择。如果这个项目需要吸引其他人参与，那 Rust 无疑也是一个不小的门槛。而对于Rust老手，这类项目也不是很有吸引力。
+编程语言之争是一个“经久不衰”的话题，程序员们津津乐道，就好像球迷在讨论球队一样。而编程语言之外，操作系统、开发框架甚至代码编辑器，也是如此。
+我喜欢看到这样的争论，说明我们有的选择，创新在持续。
+编程语言就像程序员手里的剑。希望你的剑能带你闯过难关，避过凶险，带你回家。</description></item></channel></rss>
